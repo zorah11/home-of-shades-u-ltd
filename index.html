@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Custom blinds, curtains and window finishes for homes and workplaces in Uganda."
+    />
+    <title>Home Of Shades U Ltd | Made for your light</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home Of Shades home"
+        ><span>H</span> Home Of Shades <small>U Ltd</small></a
+      >
+      <button class="menu" aria-expanded="false" aria-controls="nav">
+        Menu
+      </button>
+      <nav id="nav" aria-label="Main navigation">
+        <a href="#collection">Collection</a><a href="#process">How it works</a
+        ><a href="#work">Our work</a
+        ><a class="nav-cta" href="#contact">Book a measure</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <img
+          src="assets/living-room.png"
+          alt="Warm modern living room with layered Roman shades and sheer curtains"
+        />
+        <div class="hero-copy">
+          <p class="eyebrow">Window dressing · Kampala</p>
+          <h1>Made for<br />your light.</h1>
+          <p>
+            Blinds, curtains and considered window finishes measured for the way
+            your room actually lives.
+          </p>
+          <a class="text-link" href="#collection"
+            >Explore the collection <span>↘</span></a
+          >
+        </div>
+        <p class="hero-note">For homes, offices<br />and hospitality spaces</p>
+      </section>
+
+      <section class="intro reveal">
+        <p class="section-label">What we do</p>
+        <div>
+          <h2>Privacy when you need it.<br />Soft daylight when you don’t.</h2>
+          <p>
+            We help you choose a finish that belongs in the room—not simply on
+            the window. From the first measure to the final fitting, every
+            detail is handled with care.
+          </p>
+        </div>
+      </section>
+
+      <section class="collection" id="collection">
+        <div class="material-image reveal">
+          <img
+            src="assets/materials.png"
+            alt="Linen and woven window-treatment samples in a design studio"
+          /><span>Material library</span>
+        </div>
+        <div class="service-list reveal">
+          <p class="section-label">The collection</p>
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Blinds</h3>
+              <p>
+                Roller, Roman, Venetian and vertical options, fitted precisely.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Curtains</h3>
+              <p>
+                Sheers and drapery in carefully selected textures and weights.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Workplace shades</h3>
+              <p>
+                Clean, practical light control for offices and commercial rooms.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span>04</span>
+            <div>
+              <h3>Design consultation</h3>
+              <p>
+                Advice on colour, fabric, layering and the finish that suits
+                your space.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <p class="section-label">A simple fitting process</p>
+        <ol>
+          <li>
+            <span>Visit</span>
+            <p>
+              We see the room, understand the light and take accurate
+              measurements.
+            </p>
+          </li>
+          <li>
+            <span>Select</span>
+            <p>Compare fabrics and finishes with clear, practical guidance.</p>
+          </li>
+          <li>
+            <span>Fit</span>
+            <p>Your made-to-measure pieces are installed neatly and checked.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="work" id="work">
+        <img
+          src="assets/office-installation.png"
+          alt="Office meeting room with professionally installed charcoal roller shades"
+        />
+        <div class="work-caption reveal">
+          <p class="section-label">A finished space</p>
+          <h2>Quiet control for the working day.</h2>
+          <p>
+            Tailored roller shades soften glare while keeping the room composed
+            and professional.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Start with a window</p>
+          <h2>Let’s find the right finish for your space.</h2>
+          <p>
+            Tell us what you are working on. We’ll arrange a consultation and
+            measurement.
+          </p>
+        </div>
+        <form id="inquiry-form">
+          <label>Name<input required name="name" autocomplete="name" /></label
+          ><label
+            >Phone<input
+              required
+              name="phone"
+              type="tel"
+              autocomplete="tel" /></label
+          ><label
+            >What do you need?<select name="service">
+              <option>Blinds</option>
+              <option>Curtains</option>
+              <option>Office shades</option>
+              <option>Design consultation</option>
+            </select></label
+          ><label
+            >Tell us about the space<textarea
+              name="message"
+              rows="3"
+            ></textarea></label
+          ><button type="submit">Request a consultation <span>→</span></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#top"
+        ><span>H</span> Home Of Shades <small>U Ltd</small></a
+      >
+      <p>Kampala, Uganda</p>
+      <p>© <span data-year></span> Home Of Shades U Ltd</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
