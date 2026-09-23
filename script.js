@@ -20,7 +20,7 @@ const observer = new IntersectionObserver(
 );
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 document.querySelector("[data-year]").textContent = new Date().getFullYear();
-document.querySelector("#inquiry-form").addEventListener("submit", (e) => {
+document.querySelector("#inquiry-form")?.addEventListener("submit", (e) => {
   e.preventDefault();
   e.currentTarget.querySelector(".form-status").textContent =
     "Thank you — your request is ready to send. Contact details will be connected when the site goes live.";

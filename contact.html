@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Request a window-treatment consultation with Home Of Shades U Ltd in Kampala."
+    />
+    <title>Contact | Home Of Shades U Ltd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="inner-page contact-page">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html"
+        ><span>H</span> Home Of Shades <small>U Ltd</small></a
+      ><button class="menu" aria-expanded="false" aria-controls="nav">
+        Menu
+      </button>
+      <nav id="nav">
+        <a href="services.html">Services</a><a href="about.html">About</a
+        ><a href="index.html#work">Our work</a
+        ><a aria-current="page" class="nav-cta" href="contact.html"
+          >Book a measure</a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="contact-intro">
+        <p class="eyebrow">Kampala, Uganda</p>
+        <h1>Tell us about your windows.</h1>
+        <p>
+          Share the room type, approximate number of windows and the finish you
+          have in mind. We’ll help shape the next step.
+        </p>
+      </section>
+      <section class="contact contact-full">
+        <div>
+          <p class="section-label">What happens next</p>
+          <ol class="contact-steps">
+            <li>We review your request</li>
+            <li>We arrange a convenient consultation</li>
+            <li>We measure and recommend suitable options</li>
+          </ol>
+        </div>
+        <form id="inquiry-form">
+          <label>Name<input required name="name" autocomplete="name" /></label
+          ><label
+            >Phone<input
+              required
+              name="phone"
+              type="tel"
+              autocomplete="tel" /></label
+          ><label
+            >What do you need?<select name="service">
+              <option>Blinds</option>
+              <option>Curtains</option>
+              <option>Office shades</option>
+              <option>Design consultation</option>
+            </select></label
+          ><label
+            >Tell us about the space<textarea
+              name="message"
+              rows="4"
+            ></textarea></label
+          ><button type="submit">Request a consultation <span>→</span></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="index.html"
+        ><span>H</span> Home Of Shades <small>U Ltd</small></a
+      >
+      <p>Kampala, Uganda</p>
+      <p>© <span data-year></span> Home Of Shades U Ltd</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
